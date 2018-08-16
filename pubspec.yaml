@@ -9,7 +9,11 @@ environment:
 
 dependencies:
   open_iconic_flutter: ">=0.2.0 <0.3.0"
-  video_player: ">=0.6.0 <0.7.0"
+  video_player: 
+    git:
+            url: https://github.com/recastrodiaz/plugins.git
+            ref: video_player_fix_race_condition
+            path: packages/video_player
   flutter:
     sdk: flutter
 
